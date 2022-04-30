@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
+import { Agenda } from './agenda';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   title = 'uninter-app';
+  agenda = Agenda;
 }
-
-// https://ng-bootstrap.github.io/#/components/table/examples
