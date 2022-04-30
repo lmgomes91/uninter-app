@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Agenda } from './agenda';
+import { Agenda } from './arquivo';
 
 @Component({
   selector: 'app-root',
