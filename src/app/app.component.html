@@ -1,9 +1,11 @@
+<!-- app.component.html -->
 
 <h2>Agenda</h2>
 
 <table class="table table-striped">
   <thead>
-  <tr>
+<!-- titulo de cada uma das colunas -->
+    <tr>
     <th scope="col">Nome</th>
     <th scope="col">RU</th>
     <th scope="col">Curso</th>
@@ -11,6 +13,8 @@
   </tr>
   </thead>
   <tbody>
+    <!-- ngFor itera sobre o objeto agenda, 
+    gerando assim as linhas da tabela de maneira dinamica -->
   <tr *ngFor="let a of agenda; index as i">
     <td>{{ a.nome }} </td>
     <td>{{ a.ru }}</td>

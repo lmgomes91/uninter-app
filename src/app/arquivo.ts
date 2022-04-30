@@ -1,3 +1,9 @@
+/**
+ * arquivo.ts
+ *
+ * interface e lista com os dados da agenda
+ * a serem exibidos
+ */
 interface AgendaDTO {
   nome: string;
   ru: string;
