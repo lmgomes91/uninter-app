@@ -8,3 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'uninter-app';
 }
+
+// https://ng-bootstrap.github.io/#/components/table/examples
